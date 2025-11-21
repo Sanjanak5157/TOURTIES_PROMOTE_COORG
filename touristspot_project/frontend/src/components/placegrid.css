@@ -1,0 +1,35 @@
+/* .place-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 15px;
+  padding: 10px;
+}
+
+.place-card {
+  background: white;
+  border-radius: 10px;
+  padding: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.place-card:hover {
+  transform: scale(1.03);
+}*/
+
+.place-card img {
+  display: block;
+  width: 100%;        /* full card width */
+  height: 280px;      /* increase height (adjust 220-380px to taste) */
+  object-fit: cover;  /* crop to cover without distortion */
+  border-radius: 8px;
+  margin: 0 auto;
+}
+
+ .place-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+} 
+

@@ -1,0 +1,40 @@
+Flask
+flask-cors
+mysql-connector-python
+werkzeug
+
+
+ 
+# for frontend
+#create folder inside it under terminl run this step
+#--> for react there should be node.js check node -v
+#npm install -g create-react-app for create react app
+#create-react-app frontend
+
+#cd frontend
+#npm start  to run react app
+#npm install axios  to make api calls from react to flask backend
+#npm install react-router-dom  for routing in react app
+#npm install bootstrap  for styling in react app
+#npm install react-bootstrap  for using bootstrap components in react app   
+#npm install @mui/material @emotion/react @emotion/styled  for material ui components in react app
+
+#for backend
+#python
+#cd backend
+#pip install -r requirements.txt  to install all dependencies listed in requirements.txt
+#python app.py  to run flask backend server
+#make sure mysql server is running and database is created as per db_config in app.py
+
+#database MySQL workbench8.0.4
+#creation query
+#create database tourist_app;
+
+#conect code in python to mysql
+# import mysql.connector
+# db = mysql.connector.connect(
+#     host="localhost",
+#     user="root",
+#     password="Sanjana@123",
+#     database="tourist_app"
+# )

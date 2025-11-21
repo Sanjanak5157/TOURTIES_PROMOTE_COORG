@@ -1,0 +1,44 @@
+/* .place-card {
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+.place-card img {
+  width: 200%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.place-card:hover {
+  transform: scale(1.05);
+  border-color: black;
+} */
+.place-card {
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+/* ...existing code... */
+.place-card img {
+  display: block;
+  margin: 18px auto;
+  width: 200px;   /* adjust up/down */
+  height: 200px;  /* keep square or change */
+  object-fit: cover;
+  border-radius: 10px;
+}
+/* ...existing code... */
+
+.place-card:hover {
+  transform: scale(1.05);
+  border-color: black;
+}
