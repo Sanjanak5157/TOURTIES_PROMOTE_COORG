@@ -38,3 +38,155 @@ werkzeug
 #     password="Sanjana@123",
 #     database="tourist_app"
 # )
+
+
+
+backend/
+│
+├── images/
+├── videos/
+├── app.py                    
+├── chatbot_api.py           # Chatbot Flask API
+├── chatbot_model.py         # Chatbot ML model
+├── coorg_chatbot_model.pkl  
+├── chatbot_training_data.json 
+├── requirements.txt
+├── req.txt
+├── work.txt
+├── models/                  
+│   └── place.js
+└── routes/                 
+    └── places.js
+
+frontend/
+│
+├── node_modules/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── PlaceGrid.js
+│   │   ├── PlaceDetail.js
+│   │   ├── RajaSeatDetail.js
+│   │   ├── ChikliholeDetail.js
+│   │   ├── NagarholeDetail.js
+│   │   ├── GoldenTempleDetail.js
+│   │   ├── DubareDetail.js
+│   │   ├── TalakaveriDetail.js
+│   │   ├── MadikeriFortDetail.js
+│   │   ├── IruppuFallsDetail.js
+│   │   ├── TadiandamolDetail.js
+│   │   ├── MandalpattiDetail.js
+│   │   ├── HonnamanaKereDetail.js
+│   │   ├── PlacesToGoPage.js
+│   │   ├── CitiesPage.js
+│   │   ├── ThingsToDoPage.js
+│   │   ├── ReviewsPage.js
+│   │   └── Chatbot.jsx      
+│   ├── api.js
+│   ├── App.js              
+│   ├── index.js
+│   └── styles.css
+│
+├── package.json
+├── package-lock.json
+└── README.md
+
+
+
+
+chatbot alter
+Alternative: Using Two Separate Servers
+If you prefer to keep the chatbot separate from your main backend:
+
+Update frontend/src/api.js for chatbot:
+
+javascript
+// Chatbot API URL (different port)
+const CHATBOT_API_URL = 'http://localhost:5001';
+
+export const sendChatMessage = async (message) => {
+  try {
+    const response = await fetch(`${CHATBOT_API_URL}/api/chatbot/chat`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ message }),
+    });
+    return await response.json();
+  } catch (error) {
+    console.error('Chatbot API error:', error);
+    return {
+      response: "I'm having trouble connecting. Here are some Coorg highlights...",
+      suggestions: ['Best places?', 'Weather info?', 'Hotels?']
+    };
+  }
+};
+
+export const getChatbotSuggestions = async () => {
+  try {
+    const response = await fetch(`${CHATBOT_API_URL}/api/chatbot/suggestions`);
+    return await response.json();
+  } catch (error) {
+    console.error('Chatbot suggestions error:', error);
+    return {
+      suggestions: [
+        "Best places in Coorg?",
+        "Weather in December?",
+        "Hotels in Madikeri?",
+        "Local food to try?"
+      ]
+    };
+  }
+};
+Run two separate servers:
+
+bash
+# Terminal 1: Main backend
+cd backend
+python app.py  # Runs on port 5000
+
+# Terminal 2: Chatbot API
+cd backend
+python chatbot_api.py  # Runs on port 5001
+
+# Terminal 3: Frontend
+cd frontend
+npm start  # Runs on port 3000
+10. Update .gitignore (if needed):
+Add these to your .gitignore:
+
+text
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# ML models
+*.pkl
+*.joblib
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+This integration maintains your existing project structure while adding the chatbot functionality. The chatbot will appear as a floating button on your home page when no place is selected.
+for run
+cd backend 
+python app.py
+
+cd frontend
+npm start in CMD
+deloped
+https://lb6tvj6r-3000.inc1.devtunnels.ms/
