@@ -1,0 +1,207 @@
+[
+    {
+        "text": "hello",
+        "intent": "greeting",
+        "response": "Hello! Welcome to Coorg Tourism Assistant. How can I help you today?"
+    },
+    {
+        "text": "hi",
+        "intent": "greeting",
+        "response": "Hi there! I'm here to help you explore beautiful Coorg. What would you like to know?"
+    },
+    {
+        "text": "hey",
+        "intent": "greeting",
+        "response": "Hey! Ready to discover Coorg? Ask me anything!"
+    },
+    {
+        "text": "abbey falls",
+        "intent": "abbey_falls",
+        "response": "\ud83c\udf0a Abbey Falls is one of the most popular waterfalls in Coorg, located about 8 km from Madikeri. It's 70 feet high and surrounded by coffee plantations! Timings: 9:00 AM to 5:00 PM. Entry fee: \u20b920 per person."
+    },
+    {
+        "text": "tell me about abbey falls",
+        "intent": "abbey_falls",
+        "response": "\ud83c\udf0a Abbey Falls is a beautiful waterfall in the Brahmagiri Range near Madikeri. Best visited post-monsoon (October to December) when the water flow is maximum."
+    },
+    {
+        "text": "how to reach abbey falls",
+        "intent": "abbey_falls",
+        "response": "\ud83c\udf0a Abbey Falls is 8 km from Madikeri town. Take a taxi or auto-rickshaw. It's well-marked and easy to find."
+    },
+    {
+        "text": "abbey falls timings",
+        "intent": "abbey_falls",
+        "response": "\ud83c\udf0a Abbey Falls timings: 9:00 AM to 5:00 PM every day. Best time to visit is in the morning to avoid crowds."
+    },
+    {
+        "text": "raja seat",
+        "intent": "raja_seat",
+        "response": "\ud83c\udf05 Raja Seat is a famous sunset viewpoint in Madikeri with beautiful gardens and a toy train. Entry fee: \u20b910 for adults, \u20b95 for children. Timings: 6:00 AM to 7:00 PM."
+    },
+    {
+        "text": "tell me about raja seat",
+        "intent": "raja_seat",
+        "response": "\ud83c\udf05 Raja Seat offers panoramic views of the valleys. It has musical fountains that operate in the evenings. Perfect for photography during sunset!"
+    },
+    {
+        "text": "raja seat timing",
+        "intent": "raja_seat",
+        "response": "\ud83c\udf05 Raja Seat is open from 6:00 AM to 7:00 PM daily. Musical fountain show: 6:30 PM to 7:00 PM."
+    },
+    {
+        "text": "nagarhole",
+        "intent": "nagarhole",
+        "response": "\ud83d\udc18 Nagarhole National Park (Rajiv Gandhi National Park) is a UNESCO World Heritage Site. Safari timings: Morning 6:00 AM and Evening 3:00 PM. Bookings should be made in advance."
+    },
+    {
+        "text": "nagarhole national park",
+        "intent": "nagarhole",
+        "response": "\ud83d\udc18 Nagarhole is famous for tigers, elephants, deer, and various bird species. Jeep safari costs around \u20b9300-500 per person."
+    },
+    {
+        "text": "nagarhole safari",
+        "intent": "nagarhole",
+        "response": "\ud83d\udc18 Nagarhole Safari details: Morning slot: 6:00 AM - 9:00 AM, Evening slot: 3:00 PM - 6:00 PM. Closed on Tuesdays."
+    },
+    {
+        "text": "golden temple",
+        "intent": "golden_temple",
+        "response": "\ud83d\udd4c Golden Temple (Namdroling Monastery) in Bylakuppe has magnificent 40-foot golden statues of Buddha. Entry: Free. Timings: 9:00 AM to 6:00 PM."
+    },
+    {
+        "text": "bylakuppe golden temple",
+        "intent": "golden_temple",
+        "response": "\ud83d\udd4c Bylakuppe's Golden Temple is the largest Tibetan settlement in South India. Photography allowed. Peaceful atmosphere perfect for meditation."
+    },
+    {
+        "text": "dubare",
+        "intent": "dubare",
+        "response": "\ud83d\udc18 Dubare Elephant Camp on River Cauvery offers elephant bathing, feeding, and rides. Timings: 9:00 AM to 5:30 PM. Elephant interaction: \u20b91000-1500 per person."
+    },
+    {
+        "text": "dubare elephant camp",
+        "intent": "dubare",
+        "response": "\ud83d\udc18 At Dubare, you can watch elephants being bathed by mahouts, feed them bananas, and learn about elephant conservation."
+    },
+    {
+        "text": "tadiandamol",
+        "intent": "tadiandamol",
+        "response": "\u26f0\ufe0f Tadiandamol is the highest peak in Coorg (1,748 meters). Trek difficulty: Moderate. Duration: 4-5 hours up and down. Best to hire a local guide."
+    },
+    {
+        "text": "tadiandamol trek",
+        "intent": "tadiandamol",
+        "response": "\u26f0\ufe0f Tadiandamol trek starts from Nalaknad Palace. Need permission from forest department. Best months: October to February."
+    },
+    {
+        "text": "what are the best places in coorg",
+        "intent": "places",
+        "response": "\ud83d\udccd Top 10 places in Coorg:\n1. Abbey Falls\n2. Raja Seat\n3. Nagarhole National Park\n4. Golden Temple\n5. Dubare Elephant Camp\n6. Tadiandamol Peak\n7. Madikeri Fort\n8. Iruppu Falls\n9. Mandalpatti\n10. Honnamana Kere Lake"
+    },
+    {
+        "text": "places to visit in coorg",
+        "intent": "places",
+        "response": "\ud83d\udccd Must-visit: Abbey Falls (waterfall), Raja Seat (sunset), Nagarhole (wildlife), Golden Temple (culture), Dubare (elephants), Coffee Plantations (scenery)!"
+    },
+    {
+        "text": "popular tourist spots",
+        "intent": "places",
+        "response": "\ud83d\udccd Most popular: Abbey Falls, Raja Seat, and Nagarhole National Park. These are the top 3 visited places in Coorg."
+    },
+    {
+        "text": "best time to visit coorg",
+        "intent": "timing",
+        "response": "\ud83d\udcc5 Best time: October to March (pleasant weather 15-25\u00b0C).\nMonsoon: June-September (lush greenery, rain).\nSummer: April-May (warm, 25-35\u00b0C)."
+    },
+    {
+        "text": "weather in coorg",
+        "intent": "timing",
+        "response": "\ud83c\udf24\ufe0f Coorg climate:\n\u2022 Summer (Mar-May): 15-35\u00b0C\n\u2022 Monsoon (Jun-Sep): Heavy rain, 18-28\u00b0C\n\u2022 Winter (Oct-Feb): 10-25\u00b0C"
+    },
+    {
+        "text": "coorg in december",
+        "intent": "timing",
+        "response": "\ud83c\udf84 December is perfect! Pleasant weather (10-25\u00b0C), clear skies, Christmas celebrations in resorts, ideal for all activities."
+    },
+    {
+        "text": "how to reach coorg",
+        "intent": "transport",
+        "response": "\ud83d\ude97 How to reach Coorg:\n\u2708\ufe0f Air: Mangalore (160 km) or Bangalore (260 km) airports\n\ud83d\ude82 Train: Mysore (120 km) station\n\ud83d\ude8c Road: KSRTC buses from Bangalore, Mysore, Mangalore"
+    },
+    {
+        "text": "distance from bangalore to coorg",
+        "intent": "transport",
+        "response": "\ud83d\uddfa\ufe0f Bangalore to Coorg: 250-270 km\n\u23f1\ufe0f Travel time: 5-6 hours by car\n\ud83d\ude8c Bus: Regular KSRTC buses (\u20b9400-800)\n\ud83d\ude97 Taxi: \u20b94000-6000 one way"
+    },
+    {
+        "text": "hotels in coorg",
+        "intent": "accommodation",
+        "response": "\ud83c\udfe8 Accommodation options:\n\u2022 Luxury Resorts: \u20b98000-15000/night\n\u2022 Homestays: \u20b92000-5000/night\n\u2022 Budget Hotels: \u20b91000-3000/night\n\u2022 Popular areas: Madikeri, Kushalnagar"
+    },
+    {
+        "text": "where to stay in madikeri",
+        "intent": "accommodation",
+        "response": "\ud83c\udfe8 Madikeri hotels:\n\u2022 Luxury: The Windflower Resort, Taj Madikeri\n\u2022 Mid-range: Hotel Coorg International\n\u2022 Budget: Many homestays and guesthouses"
+    },
+    {
+        "text": "coorg food",
+        "intent": "food",
+        "response": "\ud83c\udf5b Must-try Coorgi dishes:\n\u2022 Pandi Curry (pork)\n\u2022 Kadambuttu (rice dumplings)\n\u2022 Bamboo Shoot Curry\n\u2022 Akki Roti\n\u2022 Noolputtu\n\u2022 Coorg Coffee (best in India!)"
+    },
+    {
+        "text": "what to eat in coorg",
+        "intent": "food",
+        "response": "\ud83c\udf7d\ufe0f Food experience:\n\u2022 Breakfast: Akki Roti with chutney\n\u2022 Lunch: Pandi Curry with Kadambuttu\n\u2022 Evening: Coorg coffee with banana chips\n\u2022 Try at: Coorg Cuisine, Taste of Coorg restaurants"
+    },
+    {
+        "text": "things to do in coorg",
+        "intent": "activities",
+        "response": "\ud83c\udfaf Top activities:\n1. Trekking (Tadiandamol, Brahmagiri)\n2. Wildlife Safari (Nagarhole)\n3. Coffee Plantation Tour\n4. River Rafting (Barapole River)\n5. Elephant Bathing (Dubare)\n6. Cultural Shows"
+    },
+    {
+        "text": "trekking in coorg",
+        "intent": "activities",
+        "response": "\ud83e\udd7e Best treks:\n\u2022 Tadiandamol (1748m) - 4-5 hours\n\u2022 Brahmagiri Hills - Moderate difficulty\n\u2022 Nishani Motte - Easier trek\n\u2022 Need: Guide, water, good shoes, permission for some treks"
+    },
+    {
+        "text": "shopping in coorg",
+        "intent": "shopping",
+        "response": "\ud83d\udecd\ufe0f What to buy:\n\u2022 Coffee Beans (fresh from estates)\n\u2022 Spices: Cardamom, Pepper, Vanilla\n\u2022 Honey (organic)\n\u2022 Homemade Chocolates\n\u2022 Kodava Traditional Jewelry\n\u2022 Handicrafts & Wooden Items"
+    },
+    {
+        "text": "coorg culture",
+        "intent": "culture",
+        "response": "\ud83c\udf8e Kodava Culture:\n\u2022 Traditional attire: Kupya (men), Sari with unique style (women)\n\u2022 Festivals: Keil Podh (April), Cauvery Sankramana (Oct)\n\u2022 Martial arts: Kodava martial traditions\n\u2022 Unique surnames and clan system"
+    },
+    {
+        "text": "help",
+        "intent": "help",
+        "response": "\u2139\ufe0f I can help with:\n\u2022 Places to visit\n\u2022 Best time to visit\n\u2022 How to reach\n\u2022 Accommodation\n\u2022 Food recommendations\n\u2022 Activities & Adventures\n\u2022 Shopping tips\n\u2022 Cultural information"
+    },
+    {
+        "text": "what can you do",
+        "intent": "help",
+        "response": "\ud83e\udd16 I'm your Coorg travel assistant! Ask me about:\n\u2022 Specific places (Abbey Falls, Raja Seat, etc.)\n\u2022 Travel planning\n\u2022 Weather information\n\u2022 Festival dates\n\u2022 Restaurant recommendations\n\u2022 Budget tips"
+    },
+    {
+        "text": "thank you",
+        "intent": "thanks",
+        "response": "\ud83d\ude4f You're welcome! Have a wonderful time in Coorg. Feel free to ask if you need more help!"
+    },
+    {
+        "text": "thanks",
+        "intent": "thanks",
+        "response": "\ud83d\ude0a Happy to help! Enjoy your Coorg adventure and don't forget to try the Pandi Curry!"
+    },
+    {
+        "text": "bye",
+        "intent": "goodbye",
+        "response": "\ud83d\udc4b Goodbye! Hope you have an amazing trip to Coorg! Safe travels!"
+    },
+    {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "response": "\ud83d\udc4b Goodbye! May your Coorg journey be filled with beautiful memories!"
+    }
+]
